@@ -3,6 +3,7 @@
 # 3. try to add a duplicate element in set, does it gets added?
 # 4. from a given list my_list find all unique elements (hint: use set() function)
 # 5. find the total number of elements of the set(hint: use len() function)
+# 6. find elements that are different while comparing two sets(hint: use differenc() method)
 
 # 1. create and print set that contain some fruits
 my_fruit_set = {'banana', 'mango', 'orange', 'kiwi', 'apple'}
@@ -31,4 +32,12 @@ print('--------------******--------------\n')
 
 # 5. find the total number of elements of the set(hint: use len() function)
 print('Total number of elements in this set are: ' + str(len(my_set)))
+print('--------------******--------------\n')
+
+# 6. find elements that are different while comparing two sets(hint: use differenc() method)
+my_fruit_set = {'banana', 'mango', 'orange', 'kiwi', 'apple'}
+your_fruit_set = {'melon', 'strawberry', 'banana', 'kiwi', 'grape', 'papaya', 'pear'}
+print(my_fruit_set)
+print(your_fruit_set)
+print(my_fruit_set.difference(your_fruit_set))
 print('--------------******--------------\n')
