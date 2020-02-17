@@ -2,6 +2,7 @@
 # 2. add more elements to set with add() method
 # 3. try to add a duplicate element in set, does it gets added?
 # 4. from a given list my_list find all unique elements (hint: use set() function)
+# 5. find the total number of elements of the set(hint: use len() function)
 
 # 1. create and print set that contain some fruits
 my_fruit_set = {'banana', 'mango', 'orange', 'kiwi', 'apple'}
@@ -26,4 +27,8 @@ print(my_list)
 #use set() function and pass list as object; so, it return a set with unique values
 my_set = set(my_list)
 print(my_set)
+print('--------------******--------------\n')
+
+# 5. find the total number of elements of the set(hint: use len() function)
+print('Total number of elements in this set are: ' + str(len(my_set)))
 print('--------------******--------------\n')
