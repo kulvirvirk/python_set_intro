@@ -1,6 +1,7 @@
 # 1. create and print set that contain some fruits
 # 2. add more elements to set with add() method
-# 3. try to add a duplicate element in set, does it gets added?  
+# 3. try to add a duplicate element in set, does it gets added?
+# 4. from a given list my_list find all unique elements (hint: use set() function)
 
 # 1. create and print set that contain some fruits
 my_fruit_set = {'banana', 'mango', 'orange', 'kiwi', 'apple'}
@@ -17,4 +18,12 @@ print('--------------******--------------\n')
 my_fruit_set.add('blueberry')
 my_fruit_set.add('blueberry')
 print(my_fruit_set)
+print('--------------******--------------\n')
+
+# 4. from a given list my_list find all unique elements (hint: use set() method)
+my_list = [1,2,2,3,4,5,5,5]
+print(my_list)
+#use set() function and pass list as object; so, it return a set with unique values
+my_set = set(my_list)
+print(my_set)
 print('--------------******--------------\n')
